@@ -35,9 +35,11 @@ export default function Home() {
           <div className="text-center lg:text-left max-w-2xl space-y-6 lg:space-y-8">
             {/* 主标题 */}
             <div>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 lg:mb-4 bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-1 lg:mb-2 bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
                 QIMING.LI
               </h1>
+              {/* 红色粗线突出提醒 */}
+              <div className="w-24 h-1 bg-red-500 mx-auto lg:mx-0 mb-3 lg:mb-4"></div>
               <p className="text-lg sm:text-xl lg:text-2xl text-gray-500 dark:text-gray-400 font-light">
                 Full-Stack Developer & Creative Engineer
               </p>
