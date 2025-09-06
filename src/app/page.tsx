@@ -24,6 +24,11 @@ export default function Home() {
     return shuffled.slice(0, 7); // 显示7个技能标签
   };
 
+  // 处理view portfolio按钮点击事件
+  const handleViewPortfolio = () => {
+    setSkills(getRandomSkills());
+  };
+
   useEffect(() => {
     setSkills(getRandomSkills());
   }, []);
@@ -72,7 +77,10 @@ export default function Home() {
 
             {/* 行动按钮 */}
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-              <button className="bg-black dark:bg-white text-white dark:text-black px-6 py-2 rounded-full hover:bg-gray-800 dark:hover:bg-gray-200 transition-all duration-200 font-medium">
+              <button 
+                onClick={handleViewPortfolio}
+                className="border border-gray-400 dark:border-gray-600 text-gray-900 dark:text-gray-300 px-6 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 font-medium cursor-pointer"
+              >
                 view portfolio
               </button>
               <a href="https://cd2.dev" target="_blank" rel="noopener noreferrer" className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 inline-block text-center">
