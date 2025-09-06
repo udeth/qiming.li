@@ -41,7 +41,7 @@ export default function Home() {
             {/* 主标题 */}
             <div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-1 lg:mb-2 bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
-                QIMING.LI
+                QIMING.Li
               </h1>
               {/* 红色粗线突出提醒 */}
               <div className="w-24 h-1 bg-red-500 mx-auto lg:mx-0 mb-3 lg:mb-4"></div>
