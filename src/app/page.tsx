@@ -73,11 +73,11 @@ export default function Home() {
             {/* 行动按钮 */}
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <button className="bg-black dark:bg-white text-white dark:text-black px-6 py-2 rounded-full hover:bg-gray-800 dark:hover:bg-gray-200 transition-all duration-200 font-medium">
-                View Portfolio
+                view portfolio
               </button>
-              <button className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200">
-                Contact Me
-              </button>
+              <a href="https://cd2.dev" target="_blank" rel="noopener noreferrer" className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 inline-block text-center">
+                cd /dev
+              </a>
             </div>
 
             {/* 社交链接 - 统一灰度背景设计 */}
