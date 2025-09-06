@@ -1,7 +1,32 @@
 "use client";
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+  const [skills, setSkills] = useState<string[]>([]);
+
+  // 完整的技能池
+  const allSkills = [
+    'React', 'Next.js', 'TypeScript', 'Node.js', 'Python', 'Golang',
+    'AI/ML', 'Vue.js', 'Angular', 'JavaScript', 'Java', 'C++',
+    'Docker', 'Kubernetes', 'AWS', 'Azure', 'GCP', 'MongoDB',
+    'PostgreSQL', 'Redis', 'GraphQL', 'REST API', 'Microservices',
+    'DevOps', 'CI/CD', 'Git', 'Linux', 'Nginx', 'Express.js',
+    'FastAPI', 'Django', 'Flask', 'Spring Boot', 'TensorFlow',
+    'PyTorch', 'OpenAI', 'LangChain', 'Blockchain', 'Web3',
+    'React Native', 'Flutter', 'Swift', 'Kotlin', 'Unity',
+    'Three.js', 'WebGL', 'D3.js', 'Tailwind CSS', 'SCSS'
+  ];
+
+  // 随机选择技能标签
+  const getRandomSkills = () => {
+    const shuffled = [...allSkills].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 7); // 显示7个技能标签
+  };
+
+  useEffect(() => {
+    setSkills(getRandomSkills());
+  }, []);
   return (
     <div className="flex flex-col lg:flex-row min-h-screen">
       {/* 左侧内容区域 */}
@@ -30,10 +55,13 @@ export default function Home() {
 
             {/* 技能标签 */}
             <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
-              {['React', 'Next.js', 'TypeScript', 'Node.js', 'Python', 'Golang', 'AI/ML'].map((skill) => (
+              {skills.map((skill, index) => (
                 <span
-                  key={skill}
-                  className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
+                  key={`${skill}-${index}`}
+                  className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200 animate-fade-in"
+                  style={{
+                    animationDelay: `${index * 100}ms`
+                  }}
                 >
                   {skill}
                 </span>
