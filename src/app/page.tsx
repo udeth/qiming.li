@@ -79,11 +79,17 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <button 
                 onClick={handleViewPortfolio}
-                className="border border-black dark:border-white text-white dark:text-black px-6 py-2 rounded-full hover:bg-gray-800 dark:hover:bg-gray-200 hover:shadow-lg transition-all duration-200 font-medium cursor-pointer bg-black dark:bg-white"
+                className="border border-black dark:border-white text-white dark:text-black px-5 py-2 rounded-full hover:bg-gray-800 dark:hover:bg-gray-200 hover:shadow-lg transition-all duration-200 font-medium cursor-pointer bg-black dark:bg-white flex items-center justify-center gap-2 text-sm"
               >
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20 6H4c-1.11 0-2 .89-2 2v10c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm0 12H4V8h16v10zm-10-1l2.5-3.21 1.79 2.15 2.5-3.22L19 17H9z"/>
+                </svg>
                 view portfolio
               </button>
-              <a href="https://cd2.dev" target="_blank" rel="noopener noreferrer" className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 hover:shadow-lg transition-all duration-200 inline-block text-center">
+              <a href="https://cd2.dev" target="_blank" rel="noopener noreferrer" className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-5 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2 text-sm">
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20,19V7H4V19H20M20,3A2,2 0 0,1 22,5V19A2,2 0 0,1 20,21H4A2,2 0 0,1 2,19V5C2,3.89 2.9,3 4,3H20M13,17V15H18V17H13M9.58,13L5.57,9H8.4L11.7,12.3C12.09,12.69 12.09,13.33 11.7,13.72L8.42,17H5.59L9.58,13Z"/>
+                </svg>
                 cd /dev
               </a>
             </div>
