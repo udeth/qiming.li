@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "YOU CAN(NOT) REDO.",
-  description: "long time no see.",
+  description: "Build Worlds, Skip the <Code>",
 };
 
 export default function RootLayout({
