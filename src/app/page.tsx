@@ -14,7 +14,7 @@ export default function Home() {
     'DevOps', 'CI/CD', 'Git', 'Linux', 'Nginx', 'Express.js',
     'FastAPI', 'Django', 'Flask', 'Spring Boot', 'TensorFlow',
     'PyTorch', 'OpenAI', 'LangChain', 'Blockchain', 'Web3',
-    'React Native', 'Flutter', 'Swift', 'Kotlin', 'Unity',
+    'React Native', 'Flutter', 'Swift', 'Kotlin', 'Unity', 'PHP',
     'Three.js', 'WebGL', 'D3.js', 'Tailwind CSS', 'SCSS', 'Bug0'
   ];
 
