@@ -79,7 +79,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <button 
                 onClick={handleViewPortfolio}
-                className="border border-gray-400 dark:border-gray-600 text-gray-900 dark:text-gray-300 px-6 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 font-medium cursor-pointer"
+                className="border border-black dark:border-white text-white dark:text-black px-6 py-2 rounded-full hover:bg-gray-800 dark:hover:bg-gray-200 transition-all duration-200 font-medium cursor-pointer bg-black dark:bg-white"
               >
                 view portfolio
               </button>
