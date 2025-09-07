@@ -15,7 +15,7 @@ export default function Home() {
     'FastAPI', 'Django', 'Flask', 'Spring Boot', 'TensorFlow',
     'PyTorch', 'OpenAI', 'LangChain', 'Blockchain', 'Web3',
     'React Native', 'Flutter', 'Swift', 'Kotlin', 'Unity',
-    'Three.js', 'WebGL', 'D3.js', 'Tailwind CSS', 'SCSS'
+    'Three.js', 'WebGL', 'D3.js', 'Tailwind CSS', 'SCSS', 'Bug0'
   ];
 
   // 随机选择技能标签
