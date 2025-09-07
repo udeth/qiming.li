@@ -145,7 +145,7 @@ export default function Home() {
                         </svg>
                       </div>
                     </a>
-                    {/* Gmail */}
+                    {/* Email */}
                        <a href="mailto:mail@qiming.li" className="relative group">
                          <div className="w-10 h-10 bg-gray-500 dark:bg-gray-600 rounded-full flex items-center justify-center shadow-lg hover:bg-gray-600 dark:hover:bg-gray-500 transition-colors duration-200">
                            <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
