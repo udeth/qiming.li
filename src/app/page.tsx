@@ -79,11 +79,11 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <button 
                 onClick={handleViewPortfolio}
-                className="border border-black dark:border-white text-white dark:text-black px-6 py-2 rounded-full hover:bg-gray-800 dark:hover:bg-gray-200 transition-all duration-200 font-medium cursor-pointer bg-black dark:bg-white"
+                className="border border-black dark:border-white text-white dark:text-black px-6 py-2 rounded-full hover:bg-gray-800 dark:hover:bg-gray-200 hover:shadow-lg transition-all duration-200 font-medium cursor-pointer bg-black dark:bg-white"
               >
                 view portfolio
               </button>
-              <a href="https://cd2.dev" target="_blank" rel="noopener noreferrer" className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 inline-block text-center">
+              <a href="https://cd2.dev" target="_blank" rel="noopener noreferrer" className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 hover:shadow-lg transition-all duration-200 inline-block text-center">
                 cd /dev
               </a>
             </div>
