@@ -88,7 +88,8 @@ export default function Home() {
               </button>
               <a href="https://cd2.dev" target="_blank" rel="noopener noreferrer" className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-5 py-2 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2 text-sm">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                  <path d="M8 6L14 12L8 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                  <line x1="16" y1="18" x2="20" y2="18" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
                 cd /dev
               </a>
